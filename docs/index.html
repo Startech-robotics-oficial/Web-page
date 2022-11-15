@@ -13,7 +13,7 @@
   <title>Startech</title>
 </head>
 <style>
-  Body
+  body
     {
       background: #25013b;
       padding: 1px;
@@ -22,27 +22,15 @@
       color: white;
     }
 
-  h1
+  a
     {
-      font-family: roboto;
-      font-size: 25px;
+      text-decoration: none;
       color: white;
     }
-
-  h2
+  
+  span
     {
       font-family: roboto;
-      font-size: 50px;
-      text-align: left;
-      padding-left: 50px;
-      margin: 0px;
-    }
-
-  p
-    {
-      font-family: roboto;
-      font-size: 20px;
-      padding-left: 25px;
     }
 
   ul
@@ -62,12 +50,6 @@
       padding-right: 5px;
       list-style-type: none;
     }
-      
-  a
-    {
-      text-decoration: none;
-      color: white;
-    }
 
   div
     {
@@ -76,65 +58,30 @@
       padding-right: 0px;
       padding-top: 10px;
     }
-  
+
   pre
     {
       font-family: roboto;
-      font-size: 100px;
+      font-size: 6.75vw;
       position: absolute;
-      top: 50%;
+      top: 45%;
       text-align: center;
     }
 
-  hr
-    {
-      border-color: black;
-    }
-
-  img
-    {
-      text-align: center;
-    }
-
-  span
+  h1
     {
       font-family: roboto;
+      font-size: 3vw;
+      text-align: left;
+      padding-left: 50px;
+      margin: 0px;
     }
 
-  iframe
-    {
-      width: 100%;
-      height: 1000px;
-      background-color: #21013b;
-
-    }
-
-  video
-    {
-      text-align: center;
-    }
-    
-  .header
-    {
-      padding: 10px;
-      text-align: center;
-    }
-
-  .menu
-    {
-      background: none;
-    }
-  
-  .nav
+  p
     {
       font-family: roboto;
-      font-size: 25px;
-    }
-
-  .nav li a:hover
-    {
-      background-color: #25013b;
-      color: yellow;
+      font-size: 1.5vw;
+      padding-left: 25px;
     }
 
   .slogan
@@ -143,6 +90,13 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      width: 100%;
+      height: 700px;
+    }
+  
+  .video
+    {
+      text-align: center;
     }
 
   .footer
@@ -164,18 +118,21 @@
       color: red;
       text-decoration: underline;
     }
-  
-  .video
-    {
-      text-align: center;
-    }
 
   @media only screen and (max-width: 800px)
     {
+      .slogan
+      {
+        height: 465px;
+      }
     }
 
   @media only screen and (max-width: 500px)
     {
+      .slogan
+      {
+        height: 400px;
+      }
     }
 </style>
 <body>
@@ -209,58 +166,58 @@
         </div>
     </div>
   </nav>
-  <div class="slogan" style="width: 100%; height: 700px;">
+  <div class="slogan">
     <i><pre>
       "Because the stars cannot 
       only be found in space"
     </pre></i>
   </div>
   <div class="video">
-    <video width="90%" controls>
+    <video width="98%" controls>
       <source src="Video.mp4" type="video/mp4">
     </video>
   </div>
   <div id="Who">
-    <h2>WHO WE ARE?</h2>
+    <h1>WHO WE ARE?</h1>
     <p>Our <b>vision</b> is that we search to build a community of young leaders inspired by the curiosity, science and technology.</p>
   </div>
   <div id="FIRST">
-    <h2>FIRST</h2>
+    <h1>FIRST</h1>
     <p>For inspiration and recognition of science and technology.</p>
     <p>It is an organization that help the young students to take control over the pencils to redact the future of their own story.</p>
     <p>They generate a competition around the world, where more than 600K students, 300K coaches and advisors in more than 100 countries with more than 3600 yearly events where more than 50K robots are build in just 6 weeks to compete one with the other.</p>
   </div>
   <div id="What">
-    <h2>WHAT DO WE DO?</h2>
+    <h1>WHAT DO WE DO?</h1>
     <p>Our <b>mission</b> is to influenciate in others the sense of social conscious, curiosity and love for science; gained through competition, effort, passion and the fun between the members of the team.</p>
   </div>
   <div id="Sales" style="text-align: center;">
-    <h2>SALES</h2>
-    <img src="Menu.png"></img>
+    <h1>SALES</h1>
+    <img style="width:98%;"src="Menu.png"></img>
   </div>
   <div id="Events">
-    <h2>EVENTS</h2>
+    <h1>EVENTS</h1>
     <p>The november 25 of 2022, we were invited by HP to celebrate the 50 anniversary of his little brother enterprise.</p>
     <p>The granted us a space where we could demostrate our robot and accept sponsors from others businessmen or enterprises.</p>
     <p>The money that we'll earn from that show, they will duplicate it.</p>
   </div>
-  <div id="S">
-    <h2>Sponsorships</h2>
+  <div id="Sponsorships">
+    <h1>SPONSORSHIPS</h1>
     <p>We are greatly thanked with:</p>
     <ul style="list-style-type: circle; color:white;">
-      <li style="text-align: left;">TecMilenio</li>
-      <li style="text-align: left;">Toshiba</li>
-      <li style="text-align: left;">Gong Cha</li>
-      <li style="text-align: left;">Mentor me</li>
-      <li style="text-align: left;">Doña Inés</li>
-      <li style="text-align: left;">Hewlett-Packard</li>
+      <li style="text-align: left;"><p>Doña Inés</p></li>
+      <li style="text-align: left;"><p>Gong Cha</p></li>
+      <li style="text-align: left;"><p>Hewlett-Packard</p></li>
+      <li style="text-align: left;"><p>Mentor me</p></li>
+      <li style="text-align: left;"><p>TecMilenio</p></li>
+      <li style="text-align: left;"><p>Toshiba</p></li>
     </ul>
   </div>
   <div id="Contacts" class="footer">
-    <h2 style="padding-left: 40px;">CONTACTS</h2>
-    <h2 style="text-align: center;">Help us <a href="https://benevityapp.page.link/sHMZVpT4YTQfhsCu7>" target="_blank">donating</a>!</h2>
+    <h1 style="padding-left: 40px;">CONTACTS</h1>
+    <h1 style="text-align: center;">Help us <a href="https://benevityapp.page.link/sHMZVpT4YTQfhsCu7>" target="_blank">donating</a>!</h1>
     <br>
-    <h2 style="text-align: center;">Follow us!</h2>
+    <h1 style="text-align: center;">Follow us!</h1>
     <p><b>Mail:</b> startech.robotics.oficial@gmail.com</p>
     <p><b>Instagram:</b> <a href="https://instagram.com/startech_8293?igshid=YmMyMTA2M2Y=" target="_blank">Startech_8293</a></p>
   </div>
