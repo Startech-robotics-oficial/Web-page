@@ -64,7 +64,8 @@
       background-image: url("Space.jpg");
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-size: 100vw 800px;
+      background-size: cover;
+      height: 750px;
     }
 
   pre
@@ -119,6 +120,11 @@
 
   @media only screen and (max-width: 800px)
     {
+      .slogan
+        {
+          height: 375;
+        }
+
       h1
         {
           font-size: 4.5vw;
@@ -134,6 +140,11 @@
 
   @media only screen and (max-width: 500px)
     {
+      .slogan
+        {
+          height: 250;
+        }
+
       h1
         {
           font-size: 6vw;
@@ -179,10 +190,10 @@
     </div>
   </nav>
   <div class="slogan">
-    <pre>
+    <i><pre>
       "Because the stars cannot
       only be found in space"
-    </pre>
+    </pre></i>
   </div>
   <div class="video">
     <video width="98%" controls>
